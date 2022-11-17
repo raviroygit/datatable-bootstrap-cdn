@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js "></script>
+        <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"/> 
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css"/>         
+    </head>
+    <title> opsgenie </title>
+
+    <body style="margin: 1%;">
+        <table id="dt-basic-checkbox1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th class="th-sm">Created At
+                </th>
+                <th class="th-sm">Updated At
+                </th>
+                <th class="th-sm">Last Occurred At
+                </th>
+                <th class="th-sm">Message
+                </th>
+                <th class="th-sm">Priority
+                </th>
+                <th class="th-sm">Seen
+                </th>
+                <th class="th-sm">Status
+                </th>
+                <th class="th-sm">Acknowledged
+                </th>
+                <th class="th-sm">Snoozed
+                </th>
+              </tr>
+            </thead>
+            <img class="loader" id="loading" src="../img/loader.gif"/>
+          </table>
+        <script src="./js/env.js"></script>
+        <script src="./js/index.js"></script>
+        
+    </body>
+</html>

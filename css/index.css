@@ -1,0 +1,97 @@
+th {
+    color: aliceblue;
+    background-color: black;
+    cursor: default;
+}
+
+td {
+    cursor: pointer;
+}
+
+table#dt-basic-checkbox1 tr.even:hover td {
+    background-color: #9deaf9;
+}
+ 
+table#dt-basic-checkbox1 tr.odd:hover td {
+    background-color: #9deaf9;
+}
+
+.loader {
+    margin-right: auto;
+    position: absolute;
+    opacity: 1;
+    z-index: 1000;
+    width: 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 765px) {
+    .loader {
+        margin-right: auto;
+        position: absolute;
+        opacity: 1;
+        z-index: 1000;
+        width: 50px;
+        margin-left: 50%;
+        margin-top: 40%;
+    }
+}
+
+.cdatatableDetails {
+    margin: 8px;
+
+}
+
+.paginate_button.page-item.next {
+    cursor: pointer;
+}
+
+.paginate_button.page-item.previous {
+    cursor: pointer;
+}
+
+.paginate_button.page-item.first {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+.paginate_button.page-item.last {
+    cursor: pointer;
+}
+
+/* .dataTable>thead>tr>th[class*="sort"]:before,
+.dataTable>thead>tr>th[class*="sort"]:after {
+    content: "";
+} */
+
+table.loading tbody {
+    position: relative;
+}
+
+table.loading tbody:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    content: "";
+    background-image: url(../img/loader.gif);
+}
+
+.back {
+    color: blue;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    display: block;
+}
+
+.backIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
